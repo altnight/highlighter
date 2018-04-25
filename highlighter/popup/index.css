@@ -1,0 +1,67 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 240px;
+}
+.wrapper .add {
+  height: 20px;
+  background-image: url('../icons/glyphicons-433-plus.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.wrapper .add.active {
+  background-color: #e7f1ed;
+  cursor: pointer;
+}
+.wrapper .add.inactive {
+  background-color: #cacaca;
+  cursor: auto;
+}
+.wrapper .row {
+  display: flex;
+  justify-content: center;
+  height: 20px;
+  padding: 8px 4px;
+}
+.wrapper .row.active {
+  background-color: #eaeaea;
+}
+.wrapper .row:hover {
+  background-color: #eaeaea;
+}
+.wrapper .row .origin {
+  display: inline-block;
+  width: 220px;
+  height: 20px;
+  margin: 0 8px 0 0;
+}
+.wrapper .row span.origin {
+  width: 220px;
+  cursor: pointer;
+}
+.wrapper .row input.origin {
+  width: 216px;
+  border: 1px solid #efefef;
+}
+.wrapper .row .color {
+  display: inline-block;
+  width: 24px;
+  height: 20px;
+  opacity: .1;
+  cursor: pointer;
+}
+.wrapper .row .height {
+  display: inline-block;
+  width: 24px;
+  height: 20px;
+  cursor: pointer;
+}
+.wrapper .row .del {
+  display: inline-block;
+  width: 24px;
+  height: 20px;
+  background-color: #e96900;
+  background-image: url('../icons/glyphicons-208-remove.png');
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,15 @@
+#highlighter-content {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 1000000;
+  opacity: .1;
+  pointer-events: none;
+}
+#highlighter-content.active {
+  display: block;
+}
+#highlighter-content.inactive {
+  display: none;
+}
